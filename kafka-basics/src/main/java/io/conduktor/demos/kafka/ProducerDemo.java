@@ -47,7 +47,7 @@ public class ProducerDemo {
 
         // flush and close the producer
         producer.close();
-        //
+        // //
     }
 }
 
