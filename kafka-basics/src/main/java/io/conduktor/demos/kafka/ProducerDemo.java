@@ -1,5 +1,6 @@
 package io.conduktor.demos.kafka;
 
+import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -26,8 +27,8 @@ public class ProducerDemo {
 //        properties.setProperty("sasl.mechanism", "PLAIN");
 
         // set producer properties
-        properties.setProperty("key.serializer","");
-        properties.setProperty("value.serializer","");
+        properties.setProperty("key.serializer", StringSerializer.class.getName());
+        properties.setProperty("value.serializer",StringSerializer.class.getName());
 
         // create the Producer
 
