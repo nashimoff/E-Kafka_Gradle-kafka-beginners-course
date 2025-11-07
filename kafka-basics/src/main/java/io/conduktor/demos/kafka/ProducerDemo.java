@@ -26,6 +26,8 @@ public class ProducerDemo {
 //        properties.setProperty("sasl.mechanism", "PLAIN");
 
         // set producer properties
+        properties.setProperty("key.serializer","");
+        properties.setProperty("value.serializer","");
 
         // create the Producer
 
