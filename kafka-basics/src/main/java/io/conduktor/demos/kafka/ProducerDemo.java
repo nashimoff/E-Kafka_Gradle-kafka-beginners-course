@@ -25,6 +25,8 @@ public class ProducerDemo {
 //        properties.setProperty("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule required username=\"your-username\" password=\"your-password\";");
 //        properties.setProperty("sasl.mechanism", "PLAIN");
 
+        // set producer properties
+
         // create the Producer
 
         // send data
